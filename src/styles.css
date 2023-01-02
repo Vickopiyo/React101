@@ -1,6 +1,13 @@
-body{
+  /* Applicable when components are in APP */
+
+/* * body{
     background: #404040;
-    color: white;
+    color: white;  
+    text-align: center;  
+     display: flex;  
+     flex-direction: row;
+
+
 }
 section{
     padding: 10px 20px;
@@ -8,10 +15,12 @@ section{
 
 .header{
     text-align: center;
-
+ 
 }    
 
 .main-content{
     text-align: center;
     font-size: 1.2rem;
-}
+} */    
+
+

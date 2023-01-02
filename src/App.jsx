@@ -1,25 +1,16 @@
-import './styles.css'
+import Content from './Components/Content'
+import Header from './Components/Header'
+// import './styles.css'
 
-function Header(){
+// function Content(){
+//   return(
+//     <main   className="main-content">
+//       <section>I am section 1</section>   
 
-    return(  
-
-     <header  className="header">
-      <h1>I am the Title</h1>
-     </header>
-    )
-}   
-   
-
-function Content(){
-  return(
-    <main   className="main-content">
-      <section>I am section 1</section>   
-
-      <section>I am section 2</section>
-    </main>
-  )
-}
+//       <section>I am section 2</section>
+//     </main>
+//   )
+// }
 
 function App() {  
   // Why React ?
@@ -32,16 +23,15 @@ function App() {
     // React component returns a single JSX (javascript objects) 
     // Fragments can be used to wrap JSX   
 
-    // COMPONENTS----functions in react.Wrapped in self closing tag(<Component />).Writen in PascalCase.Returns only one element  
+    // COMPONENTS----functions in react  that return react elements(js objects).Wrapped in self closing tag(<Component />).Writen in PascalCase.Returns only one element  
     //  footer mostly wrapped in <small></small>  tag.
   return (
     <div className="App">    
          {/* Rendering components(Composability) */}
-         <Header  />       
+         <Header />       
          <Content />  
     </div>       
   )       
 
 }
-
-export default App
+export default App       
