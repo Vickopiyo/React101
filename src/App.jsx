@@ -1,9 +1,10 @@
- 
+import './styles.css'
 
 function Header(){
-    return(
 
-     <header>
+    return(  
+
+     <header  className="header">
       <h1>I am the Title</h1>
      </header>
     )
@@ -12,15 +13,13 @@ function Header(){
 
 function Content(){
   return(
-    <main>
-      <section>I am section 1</section>  
+    <main   className="main-content">
+      <section>I am section 1</section>   
+
       <section>I am section 2</section>
     </main>
   )
 }
-
-
-
 
 function App() {  
   // Why React ?
@@ -37,11 +36,12 @@ function App() {
     //  footer mostly wrapped in <small></small>  tag.
   return (
     <div className="App">    
-      {/rendering of Components(composabilitty) to make web page*  */}
-         <Header />       
+         {/* Rendering components(Composability) */}
+         <Header  />       
          <Content />  
-    </div>
-  )      
+    </div>       
+  )       
+
 }
 
 export default App
