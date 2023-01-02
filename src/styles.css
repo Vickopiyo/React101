@@ -1,0 +1,17 @@
+body{
+    background: #404040;
+    color: white;
+}
+section{
+    padding: 10px 20px;
+}   
+
+.header{
+    text-align: center;
+
+}    
+
+.main-content{
+    text-align: center;
+    font-size: 1.2rem;
+}
